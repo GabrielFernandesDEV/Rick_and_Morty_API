@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-$39%%&klimeizs&=37gw3$a%r+d0xs_52jvstv&_tt8c)2908t
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["rick-and-morty-api.azurewebsites.net"]
+#ALLOWED_HOSTS = ["rick-and-morty-api.azurewebsites.net"]
+##ALLOWED_HOSTS = ["127.0.0.1"]
 
 
 # Application definition
@@ -37,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'API',
 ]
 
 MIDDLEWARE = [
